@@ -1,7 +1,8 @@
 // index.js
 import React from 'react';
-import { createRoot } from 'react-dom/client';
-import App from './App';
+import ReactDOM from 'react-dom/client';
+import App from './app';
+import { HashRouter } from 'react-router-dom';
 import './index.css';
 
 // comp
@@ -14,8 +15,9 @@ import './component/otherSect-comp';
 import './ui/mobile-comp';
 import './ui/footer-comp';
 
-createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <HashRouter>
     <App />
-  </React.StrictMode>,
+  </HashRouter>,
 );
