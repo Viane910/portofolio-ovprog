@@ -1,6 +1,7 @@
 import HeaderComp from '@/ui/header-comp';
 import QuoteComp from '@/component/quote-comp';
 import FooterComp from '@/ui/footer-comp';
+import { Link } from 'react-router-dom';
 
 export default function HomePage() {
   return (
@@ -14,18 +15,18 @@ export default function HomePage() {
             </p>
             <QuoteComp />
             <div className="px-8 sm:items-start sm:justify-center sm:px-0 sm:space-x-5 sm:flex mt-9">
-              <a
-                href="/about"
+              <Link
+                to="/about"
                 className="mb-3 sm:mb-0 inline-flex items-center justify-center w-full px-8 py-3 text-lg font-bold text-white transition-all duration-200 bg-first border-2 border-transparent sm:w-auto rounded-xl hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
               >
                 Get to know me
-              </a>
-              <a
-                href="/portofolio"
+              </Link>
+              <Link
+                to="/portofolio"
                 className="inline-flex items-center justify-center w-full px-8 py-3 text-lg font-bold text-second hover:text-white transition-all duration-200 bg-gray-100 border-2 border-second sm:w-auto rounded-xl hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
               >
                 All my works
-              </a>
+              </Link>
             </div>
           </div>
         </div>

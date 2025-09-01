@@ -5,6 +5,7 @@ import WebsiteProjectPicture3 from '@/assets/website/websitte-3.png';
 import WebsiteProjectPicture4 from '@/assets/website/websitte-4.png';
 import WebsiteProjectPicture5 from '@/assets/website/websitte-5.png';
 import WebsiteProjectPicture6 from '@/assets/website/websitte-6.png';
+import WebsiteProjectPicture7 from '@/assets/website/websitte-7.png';
 
 // import data project Game
 import GameProjectPicture1 from '@/assets/game/game-1.jpg';
@@ -54,6 +55,12 @@ export const DataWebsiteProject = [
     desc: 'PT Pelangi Internasional',
     img: WebsiteProjectPicture6,
     link: 'https://econique-patuha-resort.vercel.app/#beranda',
+  },
+  {
+    title: 'Ateez Story',
+    desc: 'Project DBS Foundation',
+    img: WebsiteProjectPicture7,
+    link: 'https://aztoryapps.vercel.app/',
   },
 ];
 

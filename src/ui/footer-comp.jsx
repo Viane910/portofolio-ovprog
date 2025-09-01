@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '@/assets/logo/logo.png';
 import { columns, policies } from '@/data/data-footer';
 
@@ -23,9 +24,20 @@ export default function FooterComp() {
               <ul className="space-y-1">
                 {column.links.map((link, linkIdx) => (
                   <li key={linkIdx}>
-                    <a href={link.href} className="text-sm text-third hover:underline">
-                      {link.text}
-                    </a>
+                    {'to' in link ? (
+                      <Link to={link.to} className="text-sm text-third hover:underline">
+                        {link.text}
+                      </Link>
+                    ) : (
+                      <a
+                        href={link.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-third hover:underline"
+                      >
+                        {link.text}
+                      </a>
+                    )}
                   </li>
                 ))}
               </ul>
@@ -37,11 +49,23 @@ export default function FooterComp() {
         <div className="flex flex-col md:flex-row justify-between items-center border-t pt-4 text-sm text-fourth">
           <div>© 2025 My Portfolio. All rights reserved.</div>
           <div className="flex gap-4 mt-2 md:mt-0">
-            {policies.map((policy, idx) => (
-              <a key={idx} href={policy.href} className="hover:underline">
-                {policy.text}
-              </a>
-            ))}
+            {policies.map((policy, idx) =>
+              'to' in policy ? (
+                <Link key={idx} to={policy.to} className="hover:underline">
+                  {policy.text}
+                </Link>
+              ) : (
+                <a
+                  key={idx}
+                  href={policy.href}
+                  className="hover:underline"
+                  target={policy.href.startsWith('http') ? '_blank' : undefined}
+                  rel="noopener noreferrer"
+                >
+                  {policy.text}
+                </a>
+              ),
+            )}
           </div>
         </div>
       </div>

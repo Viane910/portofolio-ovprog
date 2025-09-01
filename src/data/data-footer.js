@@ -2,9 +2,9 @@ export const columns = [
   {
     title: 'Navigation',
     links: [
-      { text: 'Home', href: '/' },
-      { text: 'About Me', href: '/about' },
-      { text: 'Portofolio', href: '/portofolio' },
+      { text: 'Home', to: '/' },
+      { text: 'About Me', to: '/about' },
+      { text: 'Portofolio', to: '/portofolio' },
     ],
   },
   {
