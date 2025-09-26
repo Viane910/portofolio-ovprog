@@ -26,9 +26,9 @@ export default function OtherSecComp() {
                 <div className="p-5">
                   <h3 className="text-xl font-semibold">{item.title}</h3>
                   <p className="text-gray-400 text-sm mt-2 mb-4">{item.desc}</p>
-                  <a href={item.link} className="text-second text-sm font-medium hover:underline">
+                  {/* <a href={item.link} className="text-second text-sm font-medium hover:underline">
                     View Site →
-                  </a>
+                  </a> */}
                 </div>
               </div>
             ))}

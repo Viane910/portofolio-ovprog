@@ -22,38 +22,38 @@ import OtherProjectPicture3 from '@/assets/other/other-3.jpeg';
 
 export const DataWebsiteProject = [
   {
-    title: 'Website Mandalapratama Permai',
+    title: 'Mandalapratama Permai',
     desc: 'PT Mandalapratama Permai',
     img: WebsiteProjectPicture1,
     link: 'https://www.mandalapratamapermai.co.id/',
   },
   {
-    title: 'Website Kaliandra Setyatama',
+    title: 'Kaliandra Setyatama',
     desc: 'PT Kaliandra Setyatama',
     img: WebsiteProjectPicture2,
     link: 'https://www.kaliandra.co.id/',
   },
   {
-    title: 'Website Extralife Ent.',
+    title: 'Extralife Ent.',
     desc: 'Extralife Entertainment',
     img: WebsiteProjectPicture3,
     link: 'https://extralifee.vercel.app/',
   },
   {
     title: 'Royal Kencana Hotel',
-    desc: 'PT Pelangi Internasional',
+    desc: 'PT Pelangi Hotel Internasional (PHI)',
     img: WebsiteProjectPicture4,
     link: 'https://silver-peony-5ad531.netlify.app/',
   },
   {
-    title: 'Website Ansaju',
+    title: 'Ansaju (Anti Salah Jurusan)',
     desc: 'Project Ansaju by DBS Foundation and project my thesis',
     img: WebsiteProjectPicture5,
     link: 'https://www.ansaju.site/',
   },
   {
     title: 'Econique Patuha Resort',
-    desc: 'PT Pelangi Internasional',
+    desc: 'PT Pelangi Hotel Internasional (PHI)',
     img: WebsiteProjectPicture6,
     link: 'https://econique-patuha-resort.vercel.app/#beranda',
   },
@@ -113,12 +113,12 @@ export const DataDesignProject = [
   },
   {
     title: 'Graphic Designer',
-    desc: 'PT Pelangi Internasional',
+    desc: 'PT Pelangi Hotel Internasional (PHI)',
     img: OtherProjectPicture2,
     // link: 'https://link-to-design-project-2.com',
   },
   {
-    title: 'Part-time Teacher',
+    title: 'Part-time Teacher Multimedia',
     desc: 'SMAIT Almalaka',
     img: OtherProjectPicture3,
     // link: 'https://link-to-design-project-3.com',

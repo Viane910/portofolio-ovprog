@@ -12,7 +12,7 @@ import gtxCrtificate from '@/assets/sertif/sertif-11.jpg';
 
 export const DataSertifikat = [
   {
-    Judul: "2nd Place in Writing 'Nighmare Book'",
+    Judul: "2nd Place in Writing 'Nightmare Book'",
     Gambar: writting,
     desc: 'Mellona Publisher',
   },
