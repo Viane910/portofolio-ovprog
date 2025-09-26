@@ -13,6 +13,7 @@ import GameProjectPicture2 from '@/assets/game/game-2.png';
 import GameProjectPicture3 from '@/assets/game/game-3.png';
 import GameProjectPicture4 from '@/assets/game/game-4.jpg';
 import GameProjectPicture5 from '@/assets/game/game-5.jpg';
+import GameProjectPicture6 from '@/assets/game/game-6.png';
 
 // import data project Design
 import OtherProjectPicture1 from '@/assets/other/other-1.jpeg';
@@ -94,6 +95,12 @@ export const DataGameProject = [
     desc: 'Internship Hiscory Studio',
     img: GameProjectPicture5,
     link: '',
+  },
+  {
+    title: 'Fishgrafer',
+    desc: 'Sit N Lay Studio (SLAY)',
+    img: GameProjectPicture6,
+    link: 'https://sitnlay.itch.io/fishgrafer',
   },
 ];
 
