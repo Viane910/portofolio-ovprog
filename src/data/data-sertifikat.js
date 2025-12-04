@@ -9,6 +9,7 @@ import jurnalistik from '@/assets/sertif/sertif-8.png';
 import game from '@/assets/sertif/sertif-9.png';
 import dbsCertificate from '@/assets/sertif/sertif-10.jpg';
 import gtxCrtificate from '@/assets/sertif/sertif-11.jpg';
+import gameSeedCertificate from '@/assets/sertif/sertif-12.png';
 
 export const DataSertifikat = [
   {
@@ -65,5 +66,10 @@ export const DataSertifikat = [
     Judul: 'GameTech GameJam Jogjakarta 2025',
     Gambar: gtxCrtificate,
     desc: '1st Winner from GTX Jogja theme : Sea',
+  },
+  {
+    Judul: 'Gameseed 2025 Student Category',
+    Gambar: gameSeedCertificate,
+    desc: 'Top 20 Gameseed 2025 Student Category',
   },
 ];
