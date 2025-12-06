@@ -2,6 +2,8 @@ import CertificateComp from '@/component/certificate-comp';
 import HeaderComp from '@/ui/header-comp';
 import FooterComp from '@/ui/footer-comp';
 import ProfilePicture from '../../../assets/images/me.jpeg';
+import CViane from '@/assets/pdf/CV_DWIOKTAVIANE.pdf';
+import { Button } from '@/components/ui/button';
 
 export default function AboutPage() {
   return (
@@ -12,11 +14,7 @@ export default function AboutPage() {
           Website and Game Developer
         </h1>
         <div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
-          <a
-            rel="noopener noreferrer"
-            href="#"
-            className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-50"
-          >
+          <div className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-50">
             <img
               src={ProfilePicture}
               alt="Dwi Oktaviane"
@@ -38,8 +36,22 @@ export default function AboutPage() {
                 design, and system optimization. Passionate about building scalable and efficient
                 digital solutions while ensuring seamless network connectivity.
               </p>
+              <div className="flex justify-center p-8">
+                <Button
+                  variant="outline"
+                  className="bg-first text-third hover:bg-blue-400 border-none"
+                  onClick={() => {
+                    const link = document.createElement('a');
+                    link.href = CViane;
+                    link.download = 'Dwi-Oktaviane-CV.pdf';
+                    link.click();
+                  }}
+                >
+                  Download My PDF
+                </Button>
+              </div>
             </div>
-          </a>
+          </div>
         </div>
       </section>
 
