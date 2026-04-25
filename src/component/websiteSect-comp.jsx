@@ -23,14 +23,13 @@ export default function WebSectComp() {
                 key={index}
                 className="bg-third rounded-xl overflow-hidden shadow hover:shadow-lg transition"
               >
-                <img src={item.img} alt={item.title} className="w-full h-48 object-cover" />
-                <div className="p-5">
-                  <h3 className="text-xl font-semibold">{item.title}</h3>
-                  <p className="text-gray-400 text-sm mt-2 mb-4">{item.desc}</p>
-                  <a href={item.link} className="text-second text-sm font-medium hover:underline">
-                    View Site →
-                  </a>
-                </div>
+                <a href={item.link} className="text-second text-sm font-medium hover:underline">
+                  <img src={item.img} alt={item.title} className="w-full h-48 object-cover" />
+                  <div className="p-5 ">
+                    <h3 className="text-xl font-semibold">{item.title}</h3>
+                    <p className="text-gray-400 text-sm mt-2 mb-4">{item.desc}</p>
+                  </div>
+                </a>
               </div>
             ))}
           </div>
