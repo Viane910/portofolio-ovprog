@@ -10,6 +10,7 @@ import game from '@/assets/sertif/sertif-9.png';
 import dbsCertificate from '@/assets/sertif/sertif-10.jpg';
 import gtxCrtificate from '@/assets/sertif/sertif-11.jpg';
 import gameSeedCertificate from '@/assets/sertif/sertif-12.png';
+import sertifikatMagangKemnaker from '@/assets/sertif/sertif-13.jpg';
 
 export const DataSertifikat = [
   {
@@ -72,4 +73,9 @@ export const DataSertifikat = [
     Gambar: gameSeedCertificate,
     desc: 'Top 20 Gameseed 2025 Student Category',
   },
+  {
+    Judul: 'Magang Kemnaker Batch II',
+    Gambar: sertifikatMagangKemnaker,
+    desc: 'BP2TL Magang Batch II',
+  }
 ];

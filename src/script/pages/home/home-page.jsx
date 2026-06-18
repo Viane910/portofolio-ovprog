@@ -10,7 +10,7 @@ export default function HomePage() {
       <section className="pt-2 sm:pt-8 mb-10">
         <div className=" px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="text-center">
-            <p className="max-w-4xl mx-auto mb-4 text-4xl font-bold leading-tight text-second sm:leading-tight sm:text-5xl lg:text-6xl lg:leading-tight">
+            <p className="focus-in-contract  max-w-4xl mx-auto mb-4 text-4xl font-bold leading-tight text-second sm:leading-tight sm:text-6xl lg:text-5xl lg:leading-tight">
               Enjoy Exploring The Works of My Creativity
             </p>
             <QuoteComp />
